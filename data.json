@@ -1,141 +1,60 @@
 {
-  "width": "100%",
-  "height": "600",
+  "width": "100%", //sets width
+  "height": "600", //sets height
   "symbolsGroups": [
     {
-      "name": "Stocks",
+      "name": "Stocks", //new section inside widget
       "symbols": [
-        {
-          "name": "NASDAQ:AMZN",
-          "displayName": "AMZN - Amazon"
+      {
+          "name": "MOEX:SBER"
         },
         {
-          "name": "TSX:BB",
-          "displayName": "BB - Blackberry"
+          "name": "MOEX:MOEX"
         },
         {
-          "name": "TSX:BEPC",
-          "displayName": "BEPC - Brookfield Renewable"
+          "name": "MOEX:VTBR"
         },
         {
-          "name": "TSX:BEP.UN",
-          "displayName": "BEP.UN - Brookfield Renewable"
+          "name": "MOEX:YNDX"
         },
         {
-          "name": "TSX:BIP.UN",
-          "displayName": "BIP.UN - Brookfield Infrastructure"
+          "name": "MOEX:VKCO"
         },
         {
-          "name": "TSX:BMO",
-          "displayName": "BMO - Bank of Montreal"
+          "name": "MOEX:NVTK"
         },
         {
-          "name": "NASDAQ:CLAR",
-          "displayName": "CLAR - Clarus (BD)"
+          "name": "MOEX:ALRS"
         },
         {
-          "name": "NYSE:GME",
-          "displayName": "GME - Gamestop"
+          "name": "MOEX:ROSN"
         },
         {
-          "name": "TSXV:GRN",
-          "displayName": "GRN.V - Greenlane Renewables"
+          "name": "MOEX:RTKM"
         },
         {
-          "name": "TSX:GRT.UN",
-          "displayName": "GRT.UN - Granite REIT"
+          "name": "HKEX:175"
         },
         {
-          "name": "TSX:LSPD",
-          "displayName": "LSPD - Lightspeed"
+          "name": "HKEX:2015"
         },
         {
-          "name": "NASDAQ:MSFT",
-          "displayName": "MSFT - Microsoft"
+          "name": "HKEX:9868"
         },
         {
-          "name": "NYSE:PLTR",
-          "displayName": "PLTR - Palantir"
+          "name": "HKEX:9988"
         },
         {
-          "name": "TSX:VET",
-          "displayName": "VET - Vermillion Energy"
-        }
-      ]
-    },
-    {
-      "name": "ETFs",
-      "symbols": [
-        {
-          "name": "NASDAQ:BOTZ",
-          "displayName": "BOTZ - Robots & AI"
+          "name": "HKEX:9618"
         },
         {
-          "name": "AMEX:IPAY",
-          "displayName": "IPAY - Mobile/FinTech"
-        },
-        {
-          "name": "NASDAQ:QCLN",
-          "displayName": "QCLN - Clean Energy Index"
-        },
-        {
-          "name": "NASDAQ:SKYY",
-          "displayName": "SKYY - Cloud Computing"
-        },
-        {
-          "name": "TSX:TEC",
-          "displayName": "TEC - Technology Index"
-        },
-        {
-          "name": "TSX:XIT",
-          "displayName": "XIT - CAD Tech Index"
-        },
-        {
-          "name": "TSX:ZRE",
-          "displayName": "ZRE - REITs"
-        },
-        {
-          "name": "TSX:ZUT",
-          "displayName": "ZUT - Utilities"
-        },
-        {
-          "name": "TSX:ZWB",
-          "displayName": "ZWB - CC Banks"
-        },
-        {
-          "name": "TSX:ZWU",
-          "displayName": "ZWU - CC Utilities"
-        }
-      ]
-    },
-    {
-      "name": "Watch List",
-      "symbols": [
-        {
-          "name": "NASDAQ:CRSR",
-          "displayName": "CRSR - Corsair"
-        },
-        {
-          "name": "NYSE:DM",
-          "displayName": "DM - Desktop Metal"
-        },
-        {
-          "name": "NYSE:PRLB",
-          "displayName": "PRLB - PROTO Labs"
-        },
-        {
-          "name": "AMEX:PRNT",
-          "displayName": "PRNT - 3D Printing"
-        },
-        {
-          "name": "NYSE:SQ",
-          "displayName": "SQ - Square"
+          "name": "HKEX:1810"
         }
       ]
     }
-  ],
+  ], //shows stock info
   "showSymbolLogo": true,
-  "colorTheme": "dark",
-  "isTransparent": true,
-  "locale": "en"
+  "colorTheme": "dark", //color theme
+  "isTransparent": true, //transparent bg
+  "locale": "en" //language
 }
